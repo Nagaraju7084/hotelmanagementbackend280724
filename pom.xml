@@ -55,9 +55,10 @@
 			<artifactId>spring-boot-starter-test</artifactId>
 			<scope>test</scope>
 		</dependency>
+		<!-- security dependencies -->
 		<dependency>
-		  <groupId>org.springframework.security</groupId>
-		  <artifactId>spring-boot-starter-security</artifactId>
+			<groupId>org.springframework.boot</groupId>
+			<artifactId>spring-boot-starter-security</artifactId>
 		</dependency>
 		<dependency>
 		  <groupId>io.jsonwebtoken</groupId>
@@ -79,6 +80,18 @@
 		  <artifactId>jjwt-jackson</artifactId>
 		  <version>0.11.5</version>
 		</dependency>
+		<!-- json dependencies -->
+		<dependency>
+		  <groupId>com.vaadin.external.google</groupId>
+		  <artifactId>android-json</artifactId>
+		  <version>0.0.20131108.vaadin1</version>
+		  <scope>compile</scope>
+		</dependency>
+		<dependency>
+		  <groupId>org.apache.commons</groupId>
+		  <artifactId>commons-lang3</artifactId>
+		</dependency>
+		
 	</dependencies>
 
 	<build>
