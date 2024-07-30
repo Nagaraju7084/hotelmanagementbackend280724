@@ -1,0 +1,6 @@
+//hotel management full stack application
+//backend spring boot
+//front end angular
+
+https://www.youtube.com/watch?v=1meQT6Orunw&t=2667s
+
