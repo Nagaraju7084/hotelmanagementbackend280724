@@ -12,6 +12,7 @@ import org.springframework.security.core.GrantedAuthority;
 import org.springframework.security.core.authority.SimpleGrantedAuthority;
 import org.springframework.security.core.userdetails.UserDetails;
 
+import com.hotel.backend.dto.UserDto;
 import com.hotel.backend.role.UserRole;
 
 import lombok.Data;
@@ -61,5 +62,14 @@ public class User implements UserDetails{
 	public boolean isEnabled() {
 		// TODO Auto-generated method stub
 		return false;
+	}
+
+	public UserDto getUserDto() {
+		UserDto userDto = new UserDto();
+		userDto.setId(id);
+		userDto.setName(name);
+		userDto.setEmail(email);
+		userDto.setUserRole(userRole);
+		return userDto;
 	}
 }
